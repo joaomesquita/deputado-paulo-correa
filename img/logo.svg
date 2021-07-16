@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="609" height="164" viewBox="0 0 609 164">
+  <defs>
+    <filter id="PAULO_CORRÊA" x="0" y="15" width="609" height="149" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#0e55a7"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_27" data-name="Grupo 27" transform="translate(-364 -308)">
+    <g transform="matrix(1, 0, 0, 1, 364, 308)" filter="url(#PAULO_CORRÊA)">
+      <text id="PAULO_CORRÊA-2" data-name="PAULO CORRÊA" transform="translate(11 115)" fill="#fee101" font-size="85" font-family="Poppins-BoldItalic, Poppins" font-weight="700" font-style="italic" letter-spacing="-0.08em"><tspan x="0" y="0">PAULO CORRÊA</tspan></text>
+    </g>
+    <text id="DEPUTADO_ESTADUAL" data-name="DEPUTADO ESTADUAL" transform="translate(391 340)" fill="#fee101" font-size="30" font-family="Poppins-BoldItalic, Poppins" font-weight="700" font-style="italic" letter-spacing="-0.05em"><tspan x="0" y="0">DEPUTADO ESTADUAL</tspan></text>
+  </g>
+</svg>

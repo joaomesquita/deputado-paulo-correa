@@ -1,0 +1,77 @@
+/*   
+	Theme Name: Paulo Corrêa
+	Theme URL: http://paulocorrea.com.br
+	Description: Tema WordPress | Exclusivo - Layout, CSS, HTML, PHP e Wordpress.
+	Author: Alemaciell e João Mesquita
+	Author URI: http://alemaciell.com.br
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    outline: 0 !important;
+}
+
+.session .container {padding: 0px 100px;}
+.session {padding: 100px 0px;}
+.header-page {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    height: auto;
+}
+
+input.form-control{
+    height: 50px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.page-link {
+    background-color: #ECF4FC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.font-40 {font-size: 40px;}
+.font-35 {font-size: 35px;}
+.font-25 {font-size: 25px;}
+.font-22 {font-size: 22px;}
+.font-20 {font-size: 20px;}
+.font-18 {font-size: 18px;}
+.font-17 {font-size: 17px;}
+.font-15 {font-size: 15px;}
+.font-12 {font-size: 12px;}
+
+.bg-primary {background-color: #0E55A7 !important;}
+.bg-secondary {background-color: #1A76E1 !important;}
+.bg-light {background-color: #ECF4FC !important;}
+.btn.bg-secondary:hover {background-color: #0E55A7 !important;}
+
+.color-primary {color: #0E55A7 !important;}
+.color-primary-alternative {color: #1A76E1;}
+.color-secondary {color: #FEE101 !important;}
+.color-black {color: #2E3D44;}
+.color-light {color: #fff !important;}
+a.color-light:hover {color: #FEE101 !important;}
+a.color-secondary:hover {color: #fff !important;}
+
+.active {color: #FEE101 !important; font-weight: 600;}
+
+@media (max-width: 992px) {
+    .session .container {
+        padding: 0px 10px;
+    }
+    .session{padding: 50px 25px}
+    .font-40 {font-size: xx-large;}
+    .font-28 {font-size: x-large;}
+    .font-20 {font-size: large;}
+}
